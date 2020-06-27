@@ -25,6 +25,6 @@ jobs:
       run: mvn -B package --file $GITHUB_WORKSPACE/my-app/pom.xml
 
     - name: Publish to GitHub Packages Apache Maven
-      run: mvn deploy -s $GITHUB_WORKSPACE/my-app/settings.xml
+      run: mvn deploy -s $GITHUB_WORKSPACE/my-app/pom.xml
       env:
         GITHUB_TOKEN: ${{ github.ZOOSKY-REPO2-TOKEN }}
