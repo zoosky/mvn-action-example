@@ -52,7 +52,7 @@ Setup your local .m2/settings.xml:
             <server>
               <id>github</id>
               <username>zoosky</username>
-              <password>bdcd5f60f4311a78663218e1b07359a188101256</password>
+              <password>your-github-access-token</password>
             </server>
           </servers>
         </settings>
